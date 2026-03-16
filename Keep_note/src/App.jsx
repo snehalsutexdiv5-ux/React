@@ -1,12 +1,11 @@
 import React from 'react'
-import Loginform from './Components/Loginform'
+import Note from './Components/Note'
 
 const App = () => {
   return (
     <>
-    
-    <Loginform />
-    </>
+     <Note />
+       </>
   )
 }
 
