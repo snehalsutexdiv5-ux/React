@@ -23,7 +23,7 @@ const Note = () => {
         <>
             <section className='flex items-center justify-center w-full h-screen'>
                 {/* {form for add tasks} */}
-                <div className=' w-1/2 h-screen flex items-center justify-center '>
+                <div className=' w-1/2 h-screen flex items-center justify-center bg-green-50 '>
                     <form onSubmit={(e) => {
                         e.preventDefault();
                         SubmitForm();
@@ -53,7 +53,7 @@ const Note = () => {
                 </div>
 
                 {/* {create a div that show ours notes} */}
-                <div className=' w-1/2 h-screen border-l-2 border-black border-dashed p-6'>
+                <div className=' w-1/2 h-screen border-l-2 border-black border-dashed p-6 bg-amber-100'>
                         <div className='flex justify-center items-center gap-4 my-4'>
                            <LayoutList strokeWidth={3} 
                            className="w-10 h-10 text-red-900 font-bold"/>
