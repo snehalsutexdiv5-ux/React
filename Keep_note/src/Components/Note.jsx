@@ -21,7 +21,7 @@ const Note = () => {
     }
     return (
         <>
-            <section className='flex items-center justify-center w-full h-screen'>
+            <section className='flex items-center justify-center w-full h-screen form-[#]'>
                 {/* {form for add tasks} */}
                 <div className=' w-1/2 h-screen flex items-center justify-center bg-green-50 '>
                     <form onSubmit={(e) => {
